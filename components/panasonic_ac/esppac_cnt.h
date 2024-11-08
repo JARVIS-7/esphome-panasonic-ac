@@ -9,7 +9,7 @@ namespace CNT {
 static const uint8_t CTRL_HEADER = 0xF0;  // The header for control frames
 static const uint8_t POLL_HEADER = 0x70;  // The header for the poll command
 
-static const int POLL_INTERVAL = 5000;  // The interval at which to poll the AC
+static const int POLL_INTERVAL = 30000;  // The interval at which to poll the AC
 static const int CMD_INTERVAL = 250;  // The interval at which to send commands
 
 enum class ACState {
